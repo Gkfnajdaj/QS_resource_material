@@ -1,0 +1,593 @@
+{
+  "files": {
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM01B0100.csv": {
+      "first_seen": "2026-08-19T16:57:26",
+      "path": "data/raw/B1060005/B10600052023MM01B0100.csv",
+      "sha256": "1d26924da138ad3b89d86cbede4537357869eb9cfe0acfafb8fe74317ae68f2f",
+      "size": 5606,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM01B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM01B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM01B0100.xlsx",
+      "sha256": "8937f78e72772fc4f515b7ba6a24f09436c77fe270c24b808432551c3a2097b3",
+      "size": 95590,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM01B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM02B0100.csv": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM02B0100.csv",
+      "sha256": "af3911a04f19dd31ef3193eb651f550173295be4cda2189b311b9f2e171bf31b",
+      "size": 5606,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM02B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM02B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM02B0100.xlsx",
+      "sha256": "f79e6f2ee5250c90857f413935d628937d48f8106339abde5eb91d5afc247fb7",
+      "size": 95701,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM02B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM03B0100.csv": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM03B0100.csv",
+      "sha256": "64f1a1495fab109b295a9b1c0438e1b10fe824030d5d898b5904906e02311ce0",
+      "size": 5606,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM03B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM03B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM03B0100.xlsx",
+      "sha256": "ca419ccef302448d9bf99ef74d548c38c9d6833ff9dfa64d506fea558acad538",
+      "size": 95548,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM03B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM04B0100.csv": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM04B0100.csv",
+      "sha256": "60846440e773432c4d8c0c66bb9a9841a40fc3c31753f681e5b53f9d9c85fec8",
+      "size": 5605,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM04B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM04B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM04B0100.xlsx",
+      "sha256": "f61d5c674f275751bf1dd5773dbcabf8410ca26ebc453e32ff25b7b6f63ca68e",
+      "size": 95657,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM04B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM05B0100.csv": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM05B0100.csv",
+      "sha256": "97d8ae28fef3b039f73ac5f7593840393e65b0f4156b96a2dea1062efb678ef3",
+      "size": 5605,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM05B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM05B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM05B0100.xlsx",
+      "sha256": "fcbdb0855c76bbe5b59e0146db70dba0412be40abcf8fdf4da3acec7e2c9bf5b",
+      "size": 95643,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM05B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM06B0100.csv": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM06B0100.csv",
+      "sha256": "b235f6b4266d1b14344139dcc77d7e646fcc4a095e6504a4809fde1307a268e5",
+      "size": 5605,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM06B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM06B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM06B0100.xlsx",
+      "sha256": "690201475522e9810f871a7e1a17fd0ee8c7b92565d6c80c4966a9d352be3e3b",
+      "size": 95537,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM06B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM07B0100.csv": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM07B0100.csv",
+      "sha256": "8143c329a5dbea414601668806ba2cedc999fa42b383b86e895b02a7979c6d06",
+      "size": 5605,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM07B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM07B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM07B0100.xlsx",
+      "sha256": "da06850188f1bcd172ef073aca9e2d5603f2bf089325a5c1ecb5ea3f3bed48e8",
+      "size": 95548,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM07B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM08B0100.csv": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM08B0100.csv",
+      "sha256": "210527a2c4fe571b990c4cbdf892a6ac16c5f1e9ac0ae1bf2147e4b2536a2363",
+      "size": 5605,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM08B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM08B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM08B0100.xlsx",
+      "sha256": "977575a4e564237547535eaac7d60ec91ce6eb93495fccd4cc4bba9622cbab81",
+      "size": 95809,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM08B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM09B0100.csv": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM09B0100.csv",
+      "sha256": "df52e3c0b23e89e9af360b48fc26a435b9870f1b08a8bac711c8169382b195ab",
+      "size": 5605,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM09B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM09B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM09B0100.xlsx",
+      "sha256": "6479e802c88e577723e83a72b0d4348b788058ae27a0bae1ec1afe1879258a2a",
+      "size": 95872,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM09B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM10B0100.csv": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM10B0100.csv",
+      "sha256": "3d3473d6e2222c33044b627fc6cbef70614bb96e964119c25c2cb79ed5a31cdf",
+      "size": 5606,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM10B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM10B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM10B0100.xlsx",
+      "sha256": "74735004e91df3620f8e3140c550c1dfe0dafc8604d424076cd5c3186a78b765",
+      "size": 95765,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM10B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM11B0100.csv": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM11B0100.csv",
+      "sha256": "816cc884a907261c67055b50cde95bf6eee1dbe535e186bba803f8a35c239bea",
+      "size": 5606,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM11B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM11B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM11B0100.xlsx",
+      "sha256": "831946eff47747ea387bdb05eedf64f30cc743500ace54d81c2d12cbd3ebff3e",
+      "size": 95875,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM11B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM12B0100.csv": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM12B0100.csv",
+      "sha256": "fcd639dbe3c52add465d7a77ee7797df1cde7536a2ef55186ec86631c9e0f5ce",
+      "size": 5605,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM12B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM12B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052023MM12B0100.xlsx",
+      "sha256": "383bc743e5613808f7f1fe550452188126a247ead072504c8af24e44daad3744",
+      "size": 95871,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052023MM12B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM01B0100.csv": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052024MM01B0100.csv",
+      "sha256": "d2febe993b3c9068463d5a67ef1f75cedeb465805cb532fdbe382263794702ff",
+      "size": 5615,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM01B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM01B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052024MM01B0100.xlsx",
+      "sha256": "6f2e772b74f8f88dbc99b3bb6b9479a29621c7a861e3ee92394025fffdfbffec",
+      "size": 95918,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM01B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM02B0100.csv": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052024MM02B0100.csv",
+      "sha256": "172ffb9ea5dfc3446e350ce93975d5e215ed7190e71a57091b8b2eaa355ccc2e",
+      "size": 5615,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM02B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM02B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052024MM02B0100.xlsx",
+      "sha256": "e6e3291d00537a47684564d55cef7070875a046b4c39bc14260f40cce7d090b7",
+      "size": 95900,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM02B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM03B0100.csv": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052024MM03B0100.csv",
+      "sha256": "cd4ea6859a7db1393e3d7e633f131f3a645eaa05044941a7b11cafdd5da2fc5f",
+      "size": 5615,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM03B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM03B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:27",
+      "path": "data/raw/B1060005/B10600052024MM03B0100.xlsx",
+      "sha256": "92f96e2586c706aa5781d256788b9264c9a8c398e9a5881c8d65d6f0c2d96c65",
+      "size": 95918,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM03B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM04B0100.csv": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM04B0100.csv",
+      "sha256": "481c6864712cb590656408e1ac89931a78c9a6df3e942a78c3a4d4880bb3c002",
+      "size": 5615,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM04B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM04B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM04B0100.xlsx",
+      "sha256": "7139f34c85b1069b1675c8d3356d6b77a6482d7f96d9cba5d718508b1f625a81",
+      "size": 95940,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM04B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM05B0100.csv": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM05B0100.csv",
+      "sha256": "e9e6489c7cbf03ce385f6cd13980fb3e8b81bc558e5a9b4a367a370be058c4b6",
+      "size": 5616,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM05B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM05B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM05B0100.xlsx",
+      "sha256": "4a7653545303c79b36f4cd9a3565b09cbec975e8d5faf1e1fb4fe429da287edb",
+      "size": 95919,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM05B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM06B0100.csv": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM06B0100.csv",
+      "sha256": "f7d9bd2ccbd8069abe3899bfa5d6be2f2d7c2773c58ac2e80ab505c96a0c5bb0",
+      "size": 5616,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM06B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM06B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM06B0100.xlsx",
+      "sha256": "2da255933b7399b2d4eda141ad9000eaa5d93dddde50d91fc3adfcfe44142080",
+      "size": 95928,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM06B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM07B0100.csv": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM07B0100.csv",
+      "sha256": "2ed96b6c08603f8f89ad6ebe24b2b203627bfc93dcf7b22557080ab5bd324e49",
+      "size": 5616,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM07B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM07B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM07B0100.xlsx",
+      "sha256": "2f2d8a6e4753e03e96c58ddfbeba869257adf2823847c38e62421aef5e76e392",
+      "size": 95936,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM07B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM08B0100.csv": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM08B0100.csv",
+      "sha256": "adaf3a77450f786e69bb2601559f6355b555ffeb675f6b23c39320eece42d96e",
+      "size": 5615,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM08B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM08B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM08B0100.xlsx",
+      "sha256": "ae4c2e2b8f6e2f54ab75f9fc51cd02d19f35ab3a81de6a61c465c11a8a611167",
+      "size": 96041,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM08B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM09B0100.csv": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM09B0100.csv",
+      "sha256": "f4e856bbe86f00411e126725682c1dd65fdeac27e22c4a66b7936f046f911ef7",
+      "size": 5615,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM09B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM09B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM09B0100.xlsx",
+      "sha256": "ed3b74480a488f3eab1317a0b1422a54de1ac0717a1d7b1be49e76bb80a47884",
+      "size": 95932,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM09B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM10B0100.csv": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM10B0100.csv",
+      "sha256": "e3243c097c50e8572fdcda9329c90823cce362e77b07969cd5c5b020fb2cf635",
+      "size": 5616,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM10B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM10B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM10B0100.xlsx",
+      "sha256": "b281631a7e2f91464dc4540d01744bc8749f9e0efccfa1f273e0f720b86d049f",
+      "size": 95928,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM10B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM11B0100.csv": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM11B0100.csv",
+      "sha256": "c602beaedfe073eded419c22bce5268e68396ccba9162111ce2280df2fb96483",
+      "size": 5616,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM11B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM11B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM11B0100.xlsx",
+      "sha256": "620923cc4088ee75c139bb7b87123e3dc79a30f3b3caa255a0b7b77bd74ddb50",
+      "size": 95921,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM11B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM12B0100.csv": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM12B0100.csv",
+      "sha256": "3bc60425532076043061adc76370616147bd0f910535735b9e51abc41a94eecd",
+      "size": 5616,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM12B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM12B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052024MM12B0100.xlsx",
+      "sha256": "53c7e3a650bf2e7af0f1e85d50b400e3502b1e59657819d9e777f097481d8abc",
+      "size": 95930,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052024MM12B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM01B0100.csv": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052025MM01B0100.csv",
+      "sha256": "e63b3de7e7b6d01a52d76c57d926d4bd8b748d1f953cfb9b110185850ebb826c",
+      "size": 5615,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM01B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM01B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052025MM01B0100.xlsx",
+      "sha256": "7085053f6094b0533ac0137f88178a5d90d7261085d4856400cfe41f38d8c35d",
+      "size": 95936,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM01B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM02B0100.csv": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052025MM02B0100.csv",
+      "sha256": "9e82574c60093953d355dd328ffea552a2fa0478f44aa05618755442482f1986",
+      "size": 5615,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM02B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM02B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052025MM02B0100.xlsx",
+      "sha256": "1d4b142c973572718fb8590a2588a0502febaf5ce0555599adc2f8c450f8d7f0",
+      "size": 95921,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM02B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM03B0100.csv": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052025MM03B0100.csv",
+      "sha256": "f3bec421c37f00f6b6f9efc8576e7c618350788128c246d70b475e773a186574",
+      "size": 5615,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM03B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM03B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052025MM03B0100.xlsx",
+      "sha256": "34dd28e75399fbca7036ad428ac03318f6ac8a707de0f498fb63b6911e2f7413",
+      "size": 96048,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM03B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM04B0100.csv": {
+      "first_seen": "2026-08-19T16:57:28",
+      "path": "data/raw/B1060005/B10600052025MM04B0100.csv",
+      "sha256": "08fb7bc36faf90c977a8e918d973a190399c8731655530f9941c9190909a6a13",
+      "size": 5615,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM04B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM04B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM04B0100.xlsx",
+      "sha256": "c69676f0d4b34895a42795d048cae352cf2a714a198a79130b165e6a8f5aa408",
+      "size": 96047,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM04B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM05B0100.csv": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM05B0100.csv",
+      "sha256": "f63bd54d8d1b1385b62cb3deb064eac0e4abcc28043a7ff82a36d915d9922b12",
+      "size": 5747,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM05B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM05B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM05B0100.xlsx",
+      "sha256": "b5cc8586969d9591d45b5d4abb496be693e7d14ce928b407faa1e676df144b09",
+      "size": 98341,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM05B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM06B0100.csv": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM06B0100.csv",
+      "sha256": "b489506adef7a51e85f6afd87729bc5c9643e6fa0523462f77525f824181b221",
+      "size": 5615,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM06B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM06B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM06B0100.xlsx",
+      "sha256": "39682c48fdf1ec55396eb29283ad5b0b14424bdc70d3a015eaaf608d165e3793",
+      "size": 96041,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM06B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM07B0100.csv": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM07B0100.csv",
+      "sha256": "6a275afb91b9236f079d7597bd0c24ec2168271fb1221aabc5dc0ae36a2358a3",
+      "size": 5615,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM07B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM07B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM07B0100.xlsx",
+      "sha256": "a52b01ec57cd514e009542d5723b3115cd5729a8faaf2baa66441da9fbb843d4",
+      "size": 96044,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM07B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM08B0100.csv": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM08B0100.csv",
+      "sha256": "2b45aee004e01554c35167b9e68cb3aca8d270a496b126cb8e74484d5a30c65f",
+      "size": 5615,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM08B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM08B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM08B0100.xlsx",
+      "sha256": "600362e30404e90f580c4f699aad09af17f2906b5d0c6829f99980051166b584",
+      "size": 96317,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM08B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM09B0100.csv": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM09B0100.csv",
+      "sha256": "6c081c362c469eebf7acd45d671ab5909934d1c44ff1459a0be04fef63456700",
+      "size": 5616,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM09B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM09B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM09B0100.xlsx",
+      "sha256": "8d0a8daf1945e5d989c78df8d74189292b0245c756b0bc99003f527bc491b61f",
+      "size": 96259,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM09B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM10B0100.csv": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM10B0100.csv",
+      "sha256": "591a96a77aa97bf4d0033094959b844806d7a7c3ffadc053c752b5dc1deeeac6",
+      "size": 6353,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM10B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM10B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM10B0100.xlsx",
+      "sha256": "b984febc717ab81576400c58363b989422c6a2308ea8e71168fd5e4d38b04289",
+      "size": 96201,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM10B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM11B0100.csv": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM11B0100.csv",
+      "sha256": "908b5bf2022e7fb5485414aa409e3e887a1e060c88068c7f29736f58ec038102",
+      "size": 6353,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM11B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM11B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM11B0100.xlsx",
+      "sha256": "2b5307fb0ab46cc83003ae04b1f7d510658d495c31543ed87b60f757790ad657",
+      "size": 96717,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM11B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM12B0100.csv": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM12B0100.csv",
+      "sha256": "e1be14046cef2b94d3bec06469bc4b0d2d2a2aa83badb86ff981091fd95c1239",
+      "size": 5617,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM12B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM12B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052025MM12B0100.xlsx",
+      "sha256": "957aac2bc0471a1a0d72aa6ff7073d70ff693f4476c416f50c4b4da843a4d253",
+      "size": 96313,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052025MM12B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM01B0100.csv": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052026MM01B0100.csv",
+      "sha256": "74c60f5e10f562548718a1a3a0b99c5db490c2fc644cd71a2db4424ba11c3c01",
+      "size": 5662,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM01B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM01B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052026MM01B0100.xlsx",
+      "sha256": "6430552b63d1070bd69fd1857bcb89bbc0eb933e1ca8b6040feae640273a0f4c",
+      "size": 96122,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM01B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM02B0100.csv": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052026MM02B0100.csv",
+      "sha256": "74991df5630f4b052a2793af217d332f0aa75491ac3848e87a174468df7f242f",
+      "size": 5662,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM02B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM02B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052026MM02B0100.xlsx",
+      "sha256": "6787558d9138b68efcbb67a6c41297a0ef2437bb27fccb1f4952c2456047bb34",
+      "size": 96096,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM02B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM03B0100.csv": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052026MM03B0100.csv",
+      "sha256": "c8863178ae541e7eff15c4d7addab9aadc94a9d4892fecd7877e4868e61e0a36",
+      "size": 5651,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM03B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM03B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052026MM03B0100.xlsx",
+      "sha256": "e771f00535bc1a27de8ecc2b528fa4e1e5600911a36b62cc4cf9ad90edcdd34a",
+      "size": 96076,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM03B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM04B0100.csv": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052026MM04B0100.csv",
+      "sha256": "1869567f5d2d80b0adb398b401486d229f705bb2a69ab8184a4ded322cb0e3d0",
+      "size": 5651,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM04B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM04B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052026MM04B0100.xlsx",
+      "sha256": "acccec0999bf1c985aec85f728adf58d01864fa9b55164946583b029682510f5",
+      "size": 96098,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM04B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM05B0100.csv": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052026MM05B0100.csv",
+      "sha256": "831cfdfabf3b54324b03f6dfdeea7d0737c60260c182d4845538684f3ba57be0",
+      "size": 5651,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM05B0100.csv"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM05B0100.xlsx": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/B10600052026MM05B0100.xlsx",
+      "sha256": "dcc06dfc01f9ab601c58791cd0c008846e2a19b87a82d279f29be4c0b92519c5",
+      "size": 96091,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/B10600052026MM05B0100.xlsx"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/X10600052021MM04B0100.zip": {
+      "first_seen": "2026-08-19T16:57:29",
+      "path": "data/raw/B1060005/X10600052021MM04B0100.zip",
+      "sha256": "5cdaf6ae79bc2b52644c32d362ed9bd5105510dfd705f31f602be92f6db99d25",
+      "size": 29738,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/X10600052021MM04B0100.zip"
+    },
+    "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/X10600052022MM12B0100.zip": {
+      "first_seen": "2026-08-19T16:57:30",
+      "path": "data/raw/B1060005/X10600052022MM12B0100.zip",
+      "sha256": "47782af52ebe73c60eed999924c8daa4b691e1fa9fdcec7808ff8ebd69921d7f",
+      "size": 17494,
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1060005/att/X10600052022MM12B0100.zip"
+    }
+  },
+  "version": 1
+}
