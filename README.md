@@ -85,15 +85,24 @@ Exported to both **CSV** and **Parquet** under `./data/processed/`.
 
 ```
 QS_resource_material/
-├── hk_csd_scraper.py         # main script (download + clean + watch)
+├── hk_csd_scraper.py              # C&SD construction material prices
+├── hk_procurement_scraper.py      # HK procurement/tender/company data
 ├── requirements.txt
 ├── data/
-│   ├── manifest.json         # download state (idempotent + incremental)
+│   ├── manifest.json              # C&SD download state
+│   ├── procurement_manifest.json  # procurement download state
 │   ├── raw/
-│   │   └── B1060005/         # 41 CSV + 41 XLSX + 2 extracted XML directories
-│   └── processed/
-│       ├── hk_construction_resources_2003_2026_cleaned.csv
-│       └── hk_construction_resources_2003_2026_cleaned.parquet
+│   │   ├── B1060005/              # 41 CSV + 41 XLSX + 2 extracted XML directories
+│   │   ├── procurement_ha/        # cached rendered HTML
+│   │   └── procurement_gld/       # cached rendered HTML
+│   ├── processed/
+│   │   ├── hk_construction_resources_2003_2026_cleaned.csv
+│   │   └── hk_construction_resources_2003_2026_cleaned.parquet
+│   └── procurement/
+│       ├── hk_procurement.db
+│       ├── devb_contractors.csv
+│       ├── tenders.csv
+│       └── awards.csv
 └── README.md
 ```
 
@@ -109,3 +118,84 @@ The accompanying CSV/XLSX tables are "Average Wholesale Prices of Selected Build
 - `requests`, `beautifulsoup4`, `lxml`
 - `playwright` + Chromium browser
 - `pandas`, `numpy`, `openpyxl`, `pyarrow`
+
+---
+
+## HK Procurement Scraper
+
+A companion scraper (`hk_procurement_scraper.py`) that collects HK construction procurement data from four government sources into a shared SQLite database.
+
+### Sources
+
+| Source | Data | Method |
+|---|---|---|
+| **DEVB** | 545 approved contractors for public works (Buildings, Port Works, Roads & Drainage, Site Formation, Waterworks × Groups A/B/C with suspension flags) | HTTP GET JS data files |
+| **Housing Authority** | 29 active construction tenders + 42 commercial property awards | Playwright render (SPA) |
+| **GLD eGazette** | Government tender notices (Vue.js SPA — requires form-fill interaction; v1 logs a warning) | Playwright render |
+| **Companies Registry Open API** | Company profiles (name, BRN, registered address, incorporation date) — free, no auth | REST API |
+
+### Quick start
+
+```bash
+# Full backfill (all sources)
+python hk_procurement_scraper.py
+
+# Continuous mode — daily check for new tenders/awards
+python hk_procurement_scraper.py --watch
+
+# Test connectivity only (no writes)
+python hk_procurement_scraper.py --discover
+
+# Specific sources
+python hk_procurement_scraper.py --source devb,ha
+
+# Export SQLite → CSV
+python hk_procurement_scraper.py --skip-download --export-csv
+```
+
+### CLI reference
+
+```
+python hk_procurement_scraper.py [--source devb,ha,gld,cr_api]
+                                  [--watch] [--interval-hours H]
+                                  [--discover] [--skip-download]
+                                  [--export-csv] [--log-level LEVEL]
+```
+
+| Flag | Purpose |
+|---|---|
+| `--source S` | Comma-separated sources: `devb`, `ha`, `gld`, `cr_api` (default: all) |
+| `--watch` | Foreground continuous loop; re-checks for new data |
+| `--interval-hours 6` | Override poll cadence (default 24 = daily) |
+| `--discover` | Test connectivity to each source and exit |
+| `--skip-download` | Skip all network calls; just export CSVs from existing DB |
+| `--export-csv` | Export all tables to CSV after scraping |
+| `--log-level DEBUG` | Python logging level |
+
+### Database schema
+
+SQLite at `./data/procurement/hk_procurement.db` with four tables:
+
+- **`devb_contractors`** — name_en, name_zh, category, group_code, status
+- **`tenders`** — source, tender_ref, title_en, publication_date, closing_date, tender_url
+- **`awards`** — tender_ref, award_date, contractor_name, contract_value, contract_value_currency
+- **`companies`** — brn, english_name, chinese_name, registered_address, company_type, date_of_incorporation
+
+### Output
+
+```
+data/procurement/
+├── hk_procurement.db          # SQLite database (230 KB)
+├── devb_contractors.csv       # 545 rows
+├── tenders.csv                # 29 rows
+├── awards.csv                 # 42 rows
+└── companies.csv              # populated via cross-reference
+```
+
+### Known limitations
+
+- **GLD eGazette** is a Vue.js SPA requiring form-fill interaction; v1 renders the government notices page but cannot extract results without search submission. Logs a warning and saves rendered HTML for inspection.
+- **Companies Registry API** returns only basic profiles (name, address, BRN, type, incorporation date). Directors, shareholders, and filings require the paid e-Search Services portal.
+- **HA commercial awards** use rowspan tables with continuation rows; column mapping is approximate. Raw HTML is preserved in the `raw_html` column.
+- **Cross-referencing** (award contractor → CR API company) only works when `contractor_name` contains an actual company name. HA commercial awards are shop location/trade descriptions, not construction companies, so they correctly yield 0 matches.
+- **BOQ line-item rates** were not found in any free public source; a placeholder schema table exists for future expansion.
